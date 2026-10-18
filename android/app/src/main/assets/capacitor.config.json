@@ -1,0 +1,8 @@
+{
+	"appId": "com.bogdan.photoreport",
+	"appName": "Photo Report",
+	"webDir": "www",
+	"android": {
+		"allowMixedContent": false
+	}
+}

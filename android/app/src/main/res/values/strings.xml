@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Photo Report</string>
+    <string name="title_activity_main">Photo Report</string>
+    <string name="package_name">com.bogdan.photoreport</string>
+    <string name="custom_url_scheme">com.bogdan.photoreport</string>
+</resources>

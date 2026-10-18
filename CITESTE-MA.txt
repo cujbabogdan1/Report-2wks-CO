@@ -1,0 +1,15 @@
+PHOTO REPORT - proiect Android (Capacitor)
+
+CUM OBTII APK-UL FARA SA INSTALEZI NIMIC (GitHub Actions, gratuit)
+1. Fa-ti cont pe github.com (daca nu ai) si creeaza un repository NOU, privat.
+2. Incarca TOT continutul acestui folder in repository (butonul "Add file" > "Upload files"
+   si trage toate fisierele/folderele, inclusiv folderul ascuns .github). Fara node_modules.
+3. Mergi la tab-ul "Actions" > "Build APK" > "Run workflow". Dureaza ~5-8 minute.
+4. La final, deschide rularea si descarca "PhotoReport-apk" (zip) -> in el e app-debug.apk.
+5. Copiaza app-debug.apk pe telefon si instaleaza (permite "instalare din surse necunoscute").
+
+CE FACE APLICATIA
+- ExcelJS e inclus local (functioneaza fara internet).
+- Butonul "Download Excel" salveaza .xlsx in cache si deschide meniul Share
+  (Salveaza in Drive / Fisiere / trimite pe email / WhatsApp).
+- Camera: permisiunea CAMERA e declarata in manifest.
